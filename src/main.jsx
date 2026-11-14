@@ -1,13 +1,13 @@
-import React from 'react'
-import logo from './assets/logo.png' // Apne folder structure ke mutabiq path adjust karein
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { HashRouter } from 'react-router-dom'
+import './index.css'
+import App from './App.jsx'
 
-function Header() {
-  return (
-    <header className="flex items-center justify-between p-4 bg-white shadow">
-      <img src={logo} alt="Logo" className="h-12 w-auto" />
-      <h1 className="text-xl font-bold">Shoonysesikhar</h1>
-    </header>
-  )
-}
-
-export default Header
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </StrictMode>,
+)
