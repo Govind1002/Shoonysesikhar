@@ -143,7 +143,7 @@ export default function Navbar() {
                 शून्य से शिखर — राष्ट्रीय हिंदी समाचार पत्र
               </span>
               <span className="text-[10px] text-[#d60000] italic font-medium">
-                "सोच नई, पहल नई, रह नई"
+                "सत्य की खोज जनता की आवाज"
               </span>
             </div>
           </Link>

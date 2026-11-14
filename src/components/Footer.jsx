@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { categories } from '../data/news';
-import logoImg from '../assets/logo.png';
+import logoImg from '../assets/RoundLogo.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,7 +26,7 @@ export default function Footer() {
                   शून्य से शिखर — राष्ट्रीय हिंदी समाचार पत्र
                 </span>
                 <span className="text-[11px] text-[#d60000] font-semibold italic">
-                  "सोच नई, पहल नई, रह नई"
+                  "सत्य की खोज जनता की आवाज"
                 </span>
               </div>
             </Link>
@@ -117,7 +117,17 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs text-gray-400">
               <li className="flex items-start gap-2.5">
                 <i className="fa-solid fa-location-dot text-[#d60000] mt-1 shrink-0"></i>
-                <span>राज्य ब्यूरो: मध्य प्रदेश • छत्तीसगढ़ • गुजरात • राजस्थान • उत्तर प्रदेश</span>
+                <span>22/214, Rajdhani Marg, Opp Saraswati Talkies, Modern Colony, Ganga Ghat, Shuklaganj, Kanpur, Netua Grameen, Uttar Pradesh 209861, India</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <i className="fa-solid fa-user text-[#d60000] mt-1 shrink-0"></i>
+                <span>
+                  <strong>संपादक एवं प्रकाशक:</strong>
+                  Mayank Singh (editor and publisher)
+                  <br />
+                  <strong>कार्यकारी संपादक:</strong>
+                  Shobhit Singh (executive editor)
+                </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <i className="fa-solid fa-phone text-[#d60000] shrink-0"></i>
@@ -125,7 +135,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <i className="fa-solid fa-envelope text-[#d60000] shrink-0"></i>
-                <span>ईमेल: editor@shoonysesikhar.com</span>
+                <span>ईमेल: shoonyseshikhar@gmail.com</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <i className="fa-solid fa-globe text-[#d60000] shrink-0"></i>

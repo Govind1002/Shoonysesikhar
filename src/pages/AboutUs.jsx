@@ -18,7 +18,7 @@ export default function AboutUs() {
             Shoonysesikhar (शून्य से शिखर)
           </h1>
           <p className="text-sm sm:text-base font-bold text-[#d60000] mt-1">
-            "सोच नई, पहल नई, रह नई"
+            "सत्य की खोज जनता की आवाज"
           </p>
           <p className="text-xs sm:text-sm text-gray-500 max-w-xl mx-auto mt-2">
             राष्ट्रीय हिंदी समाचार पत्र एवं डिजिटल न्यूज़ नेटवर्क — मध्य प्रदेश, छत्तीसगढ़, गुजरात, राजस्थान व उत्तर प्रदेश
