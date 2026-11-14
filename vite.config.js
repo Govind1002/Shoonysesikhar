@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/shoonysesikhar.com/',
+  base: '/Shoonysesikhar/',
   server: {
     host: '0.0.0.0',
     allowedHosts: true,
