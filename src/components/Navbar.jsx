@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { categories } from '../data/news';
+import logoImg from '../assets/logo.png';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -124,7 +125,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-3 shrink-0 group">
             <div className="relative p-1 bg-white rounded-lg shadow-sm border border-gray-100 group-hover:border-red-300 transition">
               <img
-                src="/logo.jpg"
+                src={logoImg}
                 alt="Shoonysesikhar (शून्य से शिखर)"
                 className="h-14 sm:h-16 w-auto object-contain rounded"
               />

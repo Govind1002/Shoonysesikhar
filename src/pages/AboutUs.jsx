@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logoImg from '../assets/logo.png';
 
 export default function AboutUs() {
   return (
@@ -8,7 +9,7 @@ export default function AboutUs() {
         <div className="bg-white rounded-2xl p-6 sm:p-10 border border-gray-200 shadow-sm text-center">
           <div className="inline-block p-2 bg-white rounded-2xl shadow-md border border-gray-100 mb-4">
             <img
-              src="/logo.jpg"
+              src={logoImg}
               alt="Shoonysesikhar (शून्य से शिखर)"
               className="h-24 sm:h-32 w-auto object-contain mx-auto"
             />

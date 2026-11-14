@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { categories } from '../data/news';
+import logoImg from '../assets/logo.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-4">
             <Link to="/" className="inline-flex items-center gap-3 group">
               <img
-                src="/logo.jpg"
+                src={logoImg}
                 alt="Shoonysesikhar (शून्य से शिखर)"
                 className="h-16 w-auto object-contain rounded bg-white p-1"
               />
