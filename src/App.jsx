@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import JoinForm from './components/JoinForm';
 
 import Home from './pages/Home';
 import ArticleDetail from './pages/ArticleDetail';
@@ -51,6 +52,8 @@ export default function App() {
           />
         </Routes>
       </main>
+
+      <JoinForm />
 
       <Footer />
       <WhatsAppButton />
