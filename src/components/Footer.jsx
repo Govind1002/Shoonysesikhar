@@ -65,7 +65,7 @@ export default function Footer() {
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/shoonyseshikhar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded bg-black hover:bg-gray-800 text-white flex items-center justify-center transition text-sm border border-gray-700"

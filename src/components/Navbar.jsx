@@ -105,7 +105,7 @@ export default function Navbar() {
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/shoonyseshikhar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-6 h-6 flex items-center justify-center rounded bg-black hover:bg-gray-800 text-white transition text-[11px]"
